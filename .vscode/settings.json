@@ -1,0 +1,10 @@
+// replace COM18 with your COM port !!!
+
+{
+
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "board/esp32-wrover.cfg"
+  ],
+  "idf.portWin": "COM18"
+}

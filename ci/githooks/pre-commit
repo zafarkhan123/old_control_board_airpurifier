@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -e
+
+echo "Pre-commit script"
+
+bash ci/pre-commit-format-all.sh
+
+echo "Comitting..."
+echo ""
